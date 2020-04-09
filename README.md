@@ -38,4 +38,4 @@ numpy docs - numpy documentation was immensely helpful in understanding the impl
 
 Udacity - Udacity's instructors were extremely helpful while I was pursuing this project.
 
-Finally i would like to thank my supervisors at my work place who always supported me during this course.
+Finally, i would like to thank my supervisors at my work place who always supported me during this course.
