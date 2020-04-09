@@ -37,8 +37,8 @@ def get_filters():
                 continue
             city = CITY_DATA[city]
         break
-    # TO DO: get user input for month (all, january, february, march, april, ... , june)
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: get user input for month (all, january, february, march, april, may, june)
+    # TO DO: get user input for day of week (all, monday, tuesday, wednesday, ... sunday)
     while 1:
         choice = input('Do you want to filter the data by month and week? Yes/No\n').lower()
         print()
@@ -141,18 +141,18 @@ def time_stats(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
-    # TO DO: display the most common month
+    # TO DO: how to display the most common month
 
     popular_month = df['month'].mode()[0]
     print('The most common month is: {}'.format(popular_month))
 
-    # TO DO: display the most common day of week
+    # TO DO: how to display the most common day of week
 
     popular_day = df['day_of_week'].mode()[0]
     print('The most common day is: {}'.format(popular_day))
 
 
-    # TO DO: display the most common start hour
+    # TO DO: how to display the most common start hour
 
     df['hour'] = df['Start Time'].dt.hour
     popular_hour = df['hour'].mode()[0]
@@ -180,7 +180,7 @@ def station_stats(df):
     print('\nThe most Commonly used end station is: {}'.format(common_end_station))
 
 
-    # TO DO: display most frequent combination of start station and end station trip
+    # TO DO: display most frequent combination of start and end station trips
 
     frequently_combined_station = df.groupby(['Start Station', 'End Station']).count()
     print('\nThe most frequently combined start and end station trips are:',common_start_station, " & ", common_end_station)

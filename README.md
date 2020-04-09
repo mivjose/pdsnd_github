@@ -1,5 +1,5 @@
 ### Date created
-This project and README file were created on 7.04.2020 
+This project and README file were created on 7.04.2020
 
 ### Project Title
 Bikeshare Project
@@ -36,4 +36,4 @@ pandas docs - pandas documentation was immensely helpful in understanding the im
 
 Udacity - Udacity's instructors were extremely helpful while I was pursuing this project.
 
-Finally i would like to thank my supervisors at my work place who always supported me during this course.
+Finally, i would like to thank my supervisors at my work place who always supported me during this course.
