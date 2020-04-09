@@ -1,5 +1,5 @@
 ### Date created
-This project and README file were created on 7.04.2020 
+This project and README file were created on 7.04.2020
 
 ### Project Title
 Bikeshare Project
@@ -28,7 +28,7 @@ Finally, the user is prompted with the choice of restarting the program or not.
 Language: Python 3.6 or above
 Libraries: pandas, numpy, time
 
-###Author
+### Author
 **Mivule Joseph** - Sole author for this program.
 
 ### Credits
