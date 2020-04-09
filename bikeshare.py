@@ -37,8 +37,8 @@ def get_filters():
                 continue
             city = CITY_DATA[city]
         break
-    # TO DO: get user input for month (all, january, february, march, april, ... , june)
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: get user input for month (all, january, february, march, april, may, june)
+    # TO DO: get user input for day of week (all, monday, tuesday, wednesday, ... sunday)
     while 1:
         choice = input('Do you want to filter the data by month and week? Yes/No\n').lower()
         print()

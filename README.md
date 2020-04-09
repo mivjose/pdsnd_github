@@ -34,6 +34,8 @@ Libraries: pandas, numpy, time
 ### Credits
 pandas docs - pandas documentation was immensely helpful in understanding the implementation of pandas methods used in this project.
 
+numpy docs - numpy documentation was immensely helpful in understanding the implementation of numpy used in this project.
+
 Udacity - Udacity's instructors were extremely helpful while I was pursuing this project.
 
 Finally i would like to thank my supervisors at my work place who always supported me during this course.
